@@ -33,10 +33,10 @@
     }
 
     .box{
-        height: 120px;
-        margin: 15px;
+        height: 100%;
         width: 100%;
-        z-index: 20;
+        margin: 5px;
+        z-index: 5;
     }
 
     .name {
@@ -50,51 +50,51 @@
 
     .brockmann {
         width: 80%;
-        height: 115px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        z-index: 10;
     }
 
     .whatiscode {
         width: 80%;
-        height: 115px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        z-index: 10;
     }
 
     .dogpatch {
         width: 80%;
-        height: 115px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        z-index: 10;
     }
 
     .response {
         width: 80%;
-        height: 115px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        z-index: 10;
     }
 
     .fruits {
         width: 80%;
-        height: 115px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        z-index: 10;
     }
 
     .final {
         width: 80%;
-        height: 115px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
+        z-index: 10;
+    } 
   }
 
 .name {
