@@ -34,7 +34,7 @@
 
     .box{
         height: 100%;
-        width: 100%;
+        width: 80%;
         margin: 5px;
         z-index: 5;
     }
