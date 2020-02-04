@@ -41,7 +41,8 @@
     .box{
         height: 100%;
         width: 80%;
-        margin: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
         z-index: 5;
     }
 
