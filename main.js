@@ -1,14 +1,14 @@
 function myFunction() {
-    setTimeout(function(){
-        var myName = document.querySelector("#nameintro");
+    setTimeout(function() {
+    var myName = document.querySelector("#nameintro");
         myName.textContent = "Alexis Harris";
         myName.style.fontSize = "50px";
-        // var portfolio = document.querySelector("#portfolio");
-        // portfolio.textContent = "portfolio";
-        // portfolio.style.fontSize = "40px";
-        // portfolio.style.fontFamily = "zeitung, sans-serif";
-        // portfolio.style.fontStyle = "normal";
-        // portfolio.style.fontWeight = 400;
+        var backgroundcredit = document.querySelector(".backgroundcredit");
+        backgroundcredit.textContent = "Photo by Annie Spratt on Unsplash";
+        backgroundcredit.style.color = "rgb(66, 66, 66)";
+        backgroundcredit.style.opacity = .3;
+        backgroundcredit.style.textAlign = "bottom";
+        backgroundcredit.style.fontSize = "10px";
         console.log("yay");
     }, 6000);
 }
@@ -43,9 +43,9 @@ function myFunction2() {
         document.querySelector("body").style.backgroundColor = "#D3D3D3";
     }, 5500);
 
-    /* setTimeout(function(){
-        document.querySelector("h2").style.display = "grid";
-    }, 6200); */
+    setTimeout(function(){
+        document.querySelector(".backgroundcredit").style.display = "grid";
+    }, 5500); 
 }
 
 myFunction()
