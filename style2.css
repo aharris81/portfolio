@@ -152,10 +152,10 @@ body {
     height: 520px;
   }
   iframe {
-    -ms-zoom: 0.05;
-    -moz-transform: scale(0.05);
+    -ms-zoom: 0.02;
+    -moz-transform: scale(0.02);
     -moz-transform-origin: 0 0;
-    -o-transform: scale(0.05);
+    -o-transform: scale(0.02);
     -o-transform-origin: 0 0;
     -webkit-transform: scale(0.50);
     -webkit-transform-origin: 0 0;
